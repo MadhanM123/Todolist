@@ -1,1 +1,1 @@
-# Todolist
+# Basic Todolist in JS
