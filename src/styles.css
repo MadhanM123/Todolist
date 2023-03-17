@@ -1,0 +1,47 @@
+html,body{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-family:system-ui;
+    font-size: 60px;
+}
+
+.container{
+    width: 400px;
+}
+
+#inputField{
+    width: 300px;
+    height: 50px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+#addTask{
+    height: 55px;
+    width: 60px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 40px;
+}
+
+#addTask:hover{
+    cursor: pointer;
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+}
+
+.tasks{
+    margin-top: 25px;
+}
+
+.task-styling{
+    margin-top: 0px;
+    margin-left: -208px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-size: 30px;
+}
