@@ -1,6 +1,7 @@
 let addTaskButton = document.getElementById("addTask");
 let taskContainer = document.getElementById("taskContainer");
 let inputField = document.getElementById("inputField");
+let infoBox = document.getElementById("infobox");
 
 
 function addTask(){
@@ -10,6 +11,7 @@ function addTask(){
     taskContainer.appendChild(paragraph);
     paragraph.addEventListener("click",crossOff);
     paragraph.addEventListener("dblclick",remove);
+    infoBox.style.visibility = "hidden";
 }
 
 function crossOff(){
