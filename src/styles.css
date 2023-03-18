@@ -4,6 +4,7 @@ html,body{
     text-align: center;
     font-family:system-ui;
     font-size: 60px;
+    background-color: wheat;
 }
 
 .container{
@@ -39,9 +40,7 @@ html,body{
 }
 
 .task-styling{
-    margin-top: 0px;
-    margin-left: -208px;
-    margin-bottom: 5px;
+    margin:0;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 40px;
 }
