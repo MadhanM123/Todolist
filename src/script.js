@@ -25,6 +25,11 @@ function remove(){
 
 function init(){
     addTaskButton.addEventListener("click",addTask);
+    inputField.addEventListener("keyup",function(event){
+        if(event.key == "Enter"){
+            addTask();
+        }
+    });
 }
 
 init();
