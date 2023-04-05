@@ -12,6 +12,7 @@ function addTask(){
     paragraph.addEventListener("click",crossOff);
     paragraph.addEventListener("dblclick",remove);
     infoBox.style.visibility = "hidden";
+    inputField.value = "";
 }
 
 function crossOff(){
