@@ -1,5 +1,5 @@
 html,body{
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     text-align: center;
     font-family:system-ui;
@@ -8,7 +8,7 @@ html,body{
 }
 
 .container{
-    width: 400px;
+    width: 550px;
 }
 
 #inputField{
@@ -28,7 +28,23 @@ html,body{
     font-size: 40px;
 }
 
+#clearTasks{
+    height: 55px;
+    width: 100px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 20px;
+    color: red;
+}
+
 #addTask:hover{
+    cursor: pointer;
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+}
+
+#clearTasks:hover{
     cursor: pointer;
     border: 1px solid white;
     color: white;
