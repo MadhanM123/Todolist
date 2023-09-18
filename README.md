@@ -1,2 +1,2 @@
-# Basic Todolist in JS
+# Todolist in JS
 # Visit https://madhanm123.github.io/Todolist/
